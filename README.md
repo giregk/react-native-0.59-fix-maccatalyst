@@ -156,6 +156,8 @@ If you don't already have it, add `patch-package` to your dev-dependencies.
 yarn patch-package react-native --use-yarn --exclude 'android|third-party|third-party-podspecs'
 ```
 
-Your react-native project should now work on macOS.
+Your react-native project should now work on macOS. If not, try to clean build folder.
 
-NB: using package @react-native-community/async-storage currently breaks the build and I don't know how to fix it.
+> If you have issues with glog, I noticed it helped to build the project on an iOS simulator first.
+
+NB: using package @react-native-community/async-storage currently breaks the build and I don't know how to fix it (yet) but I submitted an issue.
