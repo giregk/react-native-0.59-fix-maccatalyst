@@ -1,0 +1,1 @@
+# react-native-0.59-fix-maccatalyst
