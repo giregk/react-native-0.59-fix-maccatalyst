@@ -160,4 +160,4 @@ Your react-native project should now work on macOS. If not, try to clean build f
 
 > If you have issues with glog, I noticed it helped to build the project on an iOS simulator first.
 
-NB: using package @react-native-community/async-storage currently breaks the build and I don't know how to fix it (yet) but I submitted an issue.
+NB: using package @react-native-community/async-storage currently may break the build. If so, make sure you have added it as a dependency of the build process. This is not done automatically on linking, but is necessary in some cases to force XCode to built it before building your app itself.
